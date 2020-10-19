@@ -1224,8 +1224,9 @@ textarea:focus {
 /*Header Top*/
 .header-top {
 	background: #f8f9f9;
-	padding: 12px 0;
+	padding: 0;
 	border-bottom: 1px solid #e1e1e1;
+	height: 30px;
 }
 /*Phone Wrap*/
 .phone-wrap > li > span {
@@ -1327,6 +1328,7 @@ textarea:focus {
 }
 .ht-setting-list > li {
 		transition: all 0.3s ease-in-out;
+
 }
 .ht-setting-list > li.active {
 	background: #fed700;
