@@ -1,77 +1,58 @@
-/*------------------------------------------------------------------------------------
-Template:   limupa - Digital Products Store ECommerce Bootstrap 4 Template
-Author: HasTech
-Version: 1
-Note: responsive.css, All Responsive CSS Style For This Theme Included In This File.
----------------------------------------------------------------*/
-/* Large Desktop Device :1501px*/
+
 @media (min-width: 1501px) {
-	/*Li's Default Container*/
 	.container {
 	    max-width: 1170px;
 	    padding-left: 0;
 	    padding-right: 0;
 	}
 }
-/*Desktop Device : 1200px*/
+
 @media (min-width: 1200px) and (max-width: 1500px) {
-	/*Li's Default Container*/
 	.container {
 	    max-width: 1170px;
 	    padding-left: 0;
 	    padding-right: 0;
 	}
 }
-/* Normal Device :992px. */
+
 @media (min-width: 992px) and (max-width: 1199px) {
-	/*Header Middle*/
 	.header-middle {
 		padding: 30px 0;
 	}
 	.hm-searchbox {
 		min-width: 458px;
 	}
-	/*Category Menu*/
 	.catmenu .catmenu-dropdown .megamenu > li {
 		min-width: 238.2px;
 	}
-	/*Footer Static Middle*/
 	.social-link > li > a {
 		width: 35px;
 		height: 35px;
 		line-height: 35px !important;
 	}
-	/*Footer Shipping Area*/
 	.shipping-text p {
 		text-overflow: ellipsis;
 		overflow: hidden;
 		white-space: nowrap;
 	}
 }
-/* Tablet Desktop :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
-	/*Home Version One Area*/
-	/*Header Right*/
 	.header-middle-right {
 		display: flex;
 		justify-content: center;
 	}
-	/*Header Middle*/
 	.hm-searchbox {
 		min-width: 480px;
 	}
 	.logo {
 		text-align: center;
 	}
-	/*Header Bottom*/
 	.header-bottom, .header-sticky.sticky {
 		background: transparent;
 	}
-	/*Mobile Menu*/
 	.megamenu-static-holder {
 		position: relative !important;
 	}
-	/*Slider*/
 	.bg-1, .bg-2, .bg-3 {
 		min-height: 389px;
 	}
@@ -88,7 +69,6 @@ Note: responsive.css, All Responsive CSS Style For This Theme Included In This F
 	.slider-content > h3 > span {
 		font-size: 24px;
 	}
-	/*Footer Shipping Area*/
 	.sm-no-gutters {
 		margin-left: 0;
 		margin-right: 0;
@@ -110,11 +90,9 @@ Note: responsive.css, All Responsive CSS Style For This Theme Included In This F
 		white-space: nowrap;
 		overflow: hidden;
 	}
-	/*Home Three Style | Featured Product*/
 	.featured-product-action .add-actions-link li.add-cart {
 		width: 100px;
 	}
-	/*Category MenuHome | Two & Three Style*/
 	.category-menu-list > ul > li.right-menu > a:after {
 	 display: none;
 	}
@@ -208,10 +186,7 @@ Note: responsive.css, All Responsive CSS Style For This Theme Included In This F
 	    border-bottom: 0;        
 	}
 }
-/*Large Mobile Device :576px */
 @media (min-width: 576px) and (max-width: 767px) {
-	/*Home Version One Area*/
-	/*Header Top*/
 	.header-top-left {
 		text-align: center;
 		padding-bottom: 10px;
@@ -223,7 +198,6 @@ Note: responsive.css, All Responsive CSS Style For This Theme Included In This F
 		display: flex;
 		justify-content: center;
 	}
-	/*Header Middle*/
 	.hm-searchbox {
 		min-width: 268px;
 	}
@@ -265,15 +239,12 @@ Note: responsive.css, All Responsive CSS Style For This Theme Included In This F
 		font-size: 12px;
 		margin-top: 2px;
 	}
-	/*Header Bottom*/
 	.header-bottom, .header-sticky.sticky {
 		background: transparent;
 	}
-	/*Mobile Menu*/
 	.megamenu-static-holder {
 		position: relative !important;
 	}
-	/*Slider*/
 	.slider-content {
 		padding-left: 35px;
 	}
@@ -281,19 +252,16 @@ Note: responsive.css, All Responsive CSS Style For This Theme Included In This F
 		font-size: 28px;
 		max-width: 250px;
 	}
-	/*Product Area*/
 	.li-product-menu li {
 		padding-right: 15px;
 	}
 	.li-product-menu li a {
 		padding: 0 15px 0 0;
 	}
-	/*Trending Product*/
 	.li-trending-product-tab h2 {
 		line-height: 24px;
 		font-size: 16px;
 	}
-	/*Footer Shipping Area*/
 	.shipping-text p {
 		max-width: 240px;
 		margin: 0 auto;
@@ -305,7 +273,6 @@ Note: responsive.css, All Responsive CSS Style For This Theme Included In This F
 		padding: 0;
 		border: none;
 	}
-	/*Category MenuHome | Two & Three Style*/
 	.category-menu-list > ul > li.right-menu > a:after {
 	 display: none;
 	}
@@ -399,10 +366,7 @@ Note: responsive.css, All Responsive CSS Style For This Theme Included In This F
 	    border-bottom: 0;        
 	}
 }
-/* Small Mobile Device :480px. */
 @media (min-width: 480px) and (max-width: 575px) {
-	/*Home Version One Area*/
-	/*Header Top*/
 	.header-top-left {
 		text-align: center;
 		padding-bottom: 10px;
@@ -411,7 +375,6 @@ Note: responsive.css, All Responsive CSS Style For This Theme Included In This F
 		display: flex;
 		justify-content: center;
 	}
-	/*Header Middle*/
 	.logo {
 		text-align: center;
 	}
@@ -444,15 +407,12 @@ Note: responsive.css, All Responsive CSS Style For This Theme Included In This F
 		left: 0;
 		right: auto;
 	}
-	/*Header Bottom*/
 	.header-bottom, .header-sticky.sticky {
 		background: transparent;
 	}
-	/*Mobile Menu*/
 	.megamenu-static-holder {
 		position: relative !important;
 	}
-	/*Slider*/
 	.slider-content {
 		padding-left: 35px;
 	}
@@ -466,11 +426,9 @@ Note: responsive.css, All Responsive CSS Style For This Theme Included In This F
 	.slider-content > h3 > span {
 		font-size: 22px;
 	}
-	/*Li's Banner | Featured Banner | Single Banner*/
 	.single-banner, .featured-banner, .li-banner {
 		display: inline-block;
 	}
-	/*Product Area*/
 	.li-product-menu li {
 		padding-right: 0;
 	}
@@ -480,7 +438,6 @@ Note: responsive.css, All Responsive CSS Style For This Theme Included In This F
 	.li-product-menu > li:first-child a {
 		padding-left: 0;
 	}
-	/*Trending Product*/
 	.li-trending-product-tab h2 {
 		line-height: 24px;
 		font-size: 18px;
@@ -495,7 +452,6 @@ Note: responsive.css, All Responsive CSS Style For This Theme Included In This F
 	.li-product-menu > li > a.active span::before {
 		bottom: -13px;
 	}
-	/*Li's Static Home Area*/
 	.li-static-home-content {
 		padding-left: 25px;
 	}
@@ -505,7 +461,6 @@ Note: responsive.css, All Responsive CSS Style For This Theme Included In This F
 	.li-static-home-content > p.schedule span {
 		font-size: 18px;
 	}
-	/*Footer Shipping Area*/
 	.shipping-text p {
 		margin: 0 auto;
 		max-width: 240px;
@@ -517,7 +472,6 @@ Note: responsive.css, All Responsive CSS Style For This Theme Included In This F
 		padding: 0;
 		border: none;
 	}
-	/*Category MenuHome | Two & Three Style*/
 	.category-menu-list > ul > li.right-menu > a:after {
 	 display: none;
 	}
@@ -611,10 +565,7 @@ Note: responsive.css, All Responsive CSS Style For This Theme Included In This F
 	    border-bottom: 0;        
 	}
 }
-/* Extra Small Mobile Device :320px. */
 @media (max-width: 479px) {
-	/*Home Version One Area*/
-	/*Header Top*/
 	.header-top-left {
 		text-align: center;
 		padding-bottom: 10px;
@@ -636,7 +587,6 @@ Note: responsive.css, All Responsive CSS Style For This Theme Included In This F
 	.minicart {
 		left: -59px;
 	}
-	/*Header Middle*/
 	.logo {
 		text-align: center;
 	}
@@ -671,15 +621,12 @@ Note: responsive.css, All Responsive CSS Style For This Theme Included In This F
 		left: -10px;
 		top: -10px;
 	}
-	/*Header Bottom*/
 	.header-bottom, .header-sticky.sticky {
 		background: transparent;
 	}
-	/*Mobile Menu*/
 	.megamenu-static-holder {
 		position: relative !important;
 	}
-	/*Slider*/
 	.slider-content {
 		padding-left: 35px;
 	}
@@ -693,7 +640,6 @@ Note: responsive.css, All Responsive CSS Style For This Theme Included In This F
 	.slider-content > h3 > span {
 		font-size: 22px;
 	}
-	/*Product Area*/
 	.li-product-menu li {
 		display: block;
 		float: left;
@@ -703,7 +649,6 @@ Note: responsive.css, All Responsive CSS Style For This Theme Included In This F
 		padding: 0 15px 0 0;
 		border-right: none;
 	}
-	/*Trending Product*/
 	.li-trending-product-tab h2 {
 		line-height: 24px;
 		font-size: 18px;
@@ -718,7 +663,6 @@ Note: responsive.css, All Responsive CSS Style For This Theme Included In This F
 	.li-product-menu > li > a span::before, .li-product-menu > li > a.active span::before {
 		bottom: 0;
 	}
-	/*Laptop Area*/
 	.li-sub-category-list > li {
 		display: block;
 		float: right;
@@ -733,7 +677,6 @@ Note: responsive.css, All Responsive CSS Style For This Theme Included In This F
 	.li-sub-category-list > li > a::after {
 		bottom: -16px;
 	}
-	/*Li's Static Home Area*/
 	.li-static-home-content {
 		padding-left: 25px;
 	}
@@ -743,14 +686,12 @@ Note: responsive.css, All Responsive CSS Style For This Theme Included In This F
 	.li-static-home-content > p.schedule span {
 		font-size: 18px;
 	}
-	/*Li's Featured Product Area*/
 	.featured-pro-wrapper .product-img {
 		width: auto;
 	}
 	.featured-pro-wrapper .featured-pro-content {
 		width: 100%;
 	}
-	/*Footer Shipping Area*/
 	.footer-shipping {
 		padding-bottom: 25px !important;
 	}
@@ -761,13 +702,11 @@ Note: responsive.css, All Responsive CSS Style For This Theme Included In This F
 		padding: 0;
 		border: none;
 	}
-	/*Footer Middle Area*/
 	.social-link > li > a {
 		width: 30px;
 		height: 30px;
 		line-height: 33px !important;
 	}
-	/*Single Product Page*/
 	.product-social-sharing > ul > li {
 		padding: 0;
 	}
@@ -778,7 +717,6 @@ Note: responsive.css, All Responsive CSS Style For This Theme Included In This F
 	.cart-quantity .add-to-cart {
 		padding: 13px 40px;
 	}
-	/*404 Error Page Area*/
 	.error-text h1 {
 		font-size: 120px;
 	}
@@ -791,11 +729,9 @@ Note: responsive.css, All Responsive CSS Style For This Theme Included In This F
 	#search-form {
 		width: 250px;
 	}
-	/*About Us Page*/
 	.about-text-wrap h2 {
 		font-size: 34px;
 	}
-	/*Checkout Page*/
 	.checkout-form-list {
 		margin-bottom: 25px;
 	}
@@ -805,11 +741,9 @@ Note: responsive.css, All Responsive CSS Style For This Theme Included In This F
 	.ship-different-title h3 label {
 		font-size: 14px;
 	}
-	/*Blog Details Page*/
 	.li-main-blog-details-page {
 		padding-bottom: 45px !important;
 	}
-	/*Category MenuHome | Two & Three Style*/
 	.category-menu-list > ul > li.right-menu > a:after {
 	 display: none;
 	}
@@ -902,15 +836,10 @@ Note: responsive.css, All Responsive CSS Style For This Theme Included In This F
 	.cat-dropdown > li:last-child > a{
 	    border-bottom: 0;        
 	}
-	/*Blog Details Page*/
 	.li-blog-single-item .li-blog-content .li-blog-details h3 {
 		font-size: 18px;
 	}
-	/*Contact Page*/
 	h3.contact-page-title {
 		font-size: 25px;
 	}
 }
-/*----------------------------------------------------------------------------------------------------*/
-/*------------------------------------------> The End <-----------------------------------------------*/
-/*----------------------------------------------------------------------------------------------------*/

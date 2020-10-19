@@ -1,76 +1,6 @@
-/*-----------------------------------------------------------------------------------
-		Template Name: limupa - Digital Products Store ECommerce Bootstrap 4 Template
-		Template URI: http://bootexperts.com
-		Description: This is digital products store html5 template for eCommerce websites, nice and clean design;
-		Author: HasTech
-		Author URI: 
-		Version: 1.0
------------------------------------------------------------------------------------
-		CSS INDEX
-		===================
-		01. Default Style
-			1.1 Basic
-			1.2 Transition
-			1.3 Section Title
-			1.4 Default Button
-			1.5 Text Color
-			1.6 Input
-			1.8 Background Variation Set
-			1.9 Animation
-			1.10 All Navigation & Pagination
-			1.11 Owl Carousel Box Shadow
-			1.12 Li's Mobile Menu Customization 
-			1.13 Modal Area
-			1.14 Scroll Up
-		02. Home Page One
-			2.1 Header
-			2.2 Slider
-			2.3 Li's Static Top
-			2.4 Product-area css
-			2.5 Li's Banner
-			2.6 Li's Laptop Features
-			2.7 Li's Static Home Banner
-			2.8 Li's Trending Products
-				2.9 Footer
-		03. Home Page Two
-		04. Home Page Three
-		05. Home Page Four
-		06. Other Pages
-			6.1 Li's Shop Page
-			6.2 Li's Frequently Asked Question(FAQ)
-			6.3 Li's Wishlist Page
-			6.4 Li's Checkout Page
-			6.5 Li's Login Register
-			6.6 Li's Shopping Cart
-			6.7 Li's Blog Page
-			6.8 Li's Compare Page
-			6.9 Li's Contact Pages
-			6.10 Li's About Us Page
-			6.11 Li's Shop Page
-			6.12 Li's Single Product
-			6.13 Single Product Carousel Page
-			6.14 Single Product Sale Page
-			6.15 Single Product Group Page
-			6.16 Single Product Normal Page
-			6.17 Single Product Affiliate Page
-			6.18 Single Product Tab Style Left Page
-			6.19 Single Product Tab Style Right Page
-			6.20 Single Product Gallery Left Page
-			6.21 Error 404 Page
 
------------------------------------------------------------------------------------*/
-
-/* Google Fonts------------------
-	font-family: 'Poppins', sans-serif;
-	font-family: 'Rubik', sans-serif;
-*/
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Rubik:300,300i,400,400i,500,500i,700,700i,900,900i');
-/*----------------------------------------*/
-/*  01. Dfault Style
-/*----------------------------------------*/
-/*----------------------------------------*/
-/*  1.1 Basic
-/*----------------------------------------*/
+
 body {
 	color: #242424;
 	font-family: 'Rubik', sans-serif;
@@ -82,6 +12,7 @@ body {
 a {
 	color: #a4a4a4;
 	transition: 0.3s ease-in-out;
+	font-family: sans-serif;
 }
 a:hover {
 	color: #fed700;
@@ -115,7 +46,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: inherit;
+	font-family: sans-serif;
 	font-weight: 700;
 	color: inherit;
 	line-height: 1.1;
@@ -249,9 +180,6 @@ iframe {
 	width: 100%;
 	height: 300px;
 }
-/*----------------------------------------*/
-/*  1.2 Transition
-/*----------------------------------------*/
 a.button::after,
 a.button-small::after {
 	-webkit-transition: all 0.3s ease-out 0s;
@@ -279,9 +207,7 @@ textarea {
 	-o-transition: all 0.5s ease-out 0s;
 	transition: all 0.5s ease-out 0s;
 }
-/*----------------------------------------*/
-/*  1.3 Section Title
-/*----------------------------------------*/
+
 .section-title > h3, 
 .section-title-2 > h3, 
 .section-title-2 > p {
@@ -309,9 +235,7 @@ textarea {
 	color: inherit;
 	font-weight: 400;
 }
-/*----------------------------------------*/
-/*  1.4 Default Button
-/*----------------------------------------*/
+
 button.li-btn {
 	border: none;
 	background: #fed700;
@@ -363,9 +287,7 @@ a.review-links {
 a.review-links:hover {
 	background: #fed700;
 }
-/*----------------------------------------*/
-/*  1.5 Text Color
-/*----------------------------------------*/
+
 .text-blue {
 	color: #4FC1F0;
 }
@@ -392,9 +314,7 @@ a.review-links:hover {
 .text-theme {
 	color: #f10;
 }
-/*----------------------------------------*/
-/*  1.6 Input
-/*----------------------------------------*/
+
 input {
 	background: #eceff8;
 	border: 2px solid #eceff8;
@@ -446,10 +366,7 @@ textarea:focus {
 .input-group.divcenter.input-group .form-control {
 	padding-left: 0px
 }
-/*----------------------------------------*/
-/*  1.8 Background Variation Set
-/*----------------------------------------*/
-/*Home One | Slider Background Image*/
+
 .bg-1, .bg-2, .bg-3 {
 	background-image: url(images/slider/1.jpg);
 	background-repeat: no-repeat;
@@ -494,7 +411,7 @@ textarea:focus {
 .bg-9 {
 	background-image: url(images/slider/9.jpg);
 }
-/*Home Four | Slider Background Image*/
+
 .bg-10, .bg-11, .bg-12 {
 	background-image: url(images/slider/10.jpg);
 	background-repeat: no-repeat;
@@ -509,9 +426,7 @@ textarea:focus {
 .bg-12 {
 	background-image: url(images/slider/12.jpg);
 }
-/*----------------------------------------*/
-/*  li's Background Variation Set 
-/*----------------------------------------*/
+
 .white-bg {
 	background: #fff;
 }
@@ -533,10 +448,7 @@ textarea:focus {
 .transparent-bg {
 	background: transparent;
 }
-/*----------------------------------------*/
-/*  1.9 Animation
-/*----------------------------------------*/
-/* Slider Progress Bar */
+
 .slider-active .owl-item.active .slider-progress {
 	-webkit-animation: 5000ms ease-in-out 0s normal none 1 running timebar;
 	animation: 10000ms ease-in-out 0s normal none 1 running timebar;
@@ -627,7 +539,7 @@ textarea:focus {
 		width: 100%;
 	}
 }
-/*Top Up Keyframes*/
+
 @-webkit-keyframes liSlideInUp {
 	0% {
 		-webkit-transform: translateY(250px);
@@ -652,9 +564,7 @@ textarea:focus {
 		opacity: 1;
 	}
 }
-/*----------------------------------------*/
-/*  1.10 All Navigation & Pagination
-/*----------------------------------------*/
+
 .slider-active .owl-nav div, 
 .product-active .owl-nav div, 
 .special-product-active .owl-nav div {
@@ -695,7 +605,7 @@ textarea:focus {
 	font-size: 55px;
 	font-weight: 700;
 }
-/*Product Active Nav Direction*/
+
 .product-active .owl-nav div.owl-prev {
 	left: -20px;
 }
@@ -1375,8 +1285,14 @@ textarea:focus {
 	cursor: pointer;
 	transition: all 0.3s ease-in-out;
 }
-.ht-currency-trigger:hover, .ht-language-trigger:hover {
+.ht-language-trigger:hover {
 	color: #fed700;
+}
+.ht-currency-trigger:hover a {
+	color: #fff;
+	background-color: #fed700;
+	height: 15px;
+
 }
 .ht-currency-trigger:hover i, .ht-language-trigger:hover i{
 	color: #fed700;
@@ -1424,9 +1340,17 @@ textarea:focus {
 	font-size: 12px;
 	line-height: 22px;
 	margin-bottom: 10px;
+	background: #fed700;
+	color:black;
+	height: 30px;
+	line-height: 30px;
+	width: 100px;
+	text-align: center;
 }
+
 .ht-setting-list > li:hover > a {
 	color: #ffffff;
+	background: black;
 }
 .ht-setting-list > li.active > a {
 	color: #fff;
@@ -1463,7 +1387,7 @@ textarea:focus {
 	position: relative;
 }
 .select-search-category ul.list {
-	height: 440px;
+	height: 200px;
 	overflow-y: auto;
 	overscroll-behavior-x: none;
 }
@@ -1764,26 +1688,10 @@ textarea:focus {
 	font-weight: 500;
 	padding: 8px 0;
 }
-.hb-menu nav > ul > li:hover > a, 
-.hb-menu nav > ul > li:hover > a::after {
+.hb-menu nav > ul > li:hover > a {
 		color: #ffffff;
 }
-.hb-menu nav > ul > li > a::after {
-	content: "\f107";
-	position: absolute;
-	top: 8px;
-	right: 15px;
-	font-family: fontawesome;
-	font-size: 18px;
-	transition: all 0.3s ease-in-out;
-	color: #242424;
-}
-.hb-menu nav > ul > li:nth-child(n+5) > a::after {
-	content: none;
-}
-.hb-menu nav > ul > li:hover  a::after {
-	transform: rotate(180deg);
-}
+
 .ht-menu > li .ht-currency-trigger span::after,
 .ht-menu > li .ht-language-trigger span::after,
 .hm-minicart-trigger .item-text::after {
@@ -3058,8 +2966,6 @@ text-align: center;
 	font-family: fontawesome;
 }
 .category-heading > h2 > i {
-	float: ;
-	text-align: ;
 	float: right;
 	padding-right: 20px;
 	font-size: 12px;
@@ -5431,6 +5337,7 @@ span.required {
 .small-version {
   display: none;
 }
-/*----------------------------------------------------------------------------------------------------*/
-/*------------------------------------------> The End <-----------------------------------------------*/
-/*----------------------------------------------------------------------------------------------------*/
+
+.col-lg-123 {
+	margin-left: 20%;
+}
