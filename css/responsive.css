@@ -90,9 +90,7 @@
 		white-space: nowrap;
 		overflow: hidden;
 	}
-	.featured-product-action .add-actions-link li.add-cart {
-		width: 100px;
-	}
+
 	.category-menu-list > ul > li.right-menu > a:after {
 	 display: none;
 	}

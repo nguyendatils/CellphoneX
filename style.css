@@ -288,7 +288,7 @@ a.review-links:hover {
 	background: #fed700;
 }
 
-.text-blue {
+.text-#fed700 {
 	color: #4FC1F0;
 }
 .text-white {
@@ -317,7 +317,7 @@ a.review-links:hover {
 
 input {
 	background: #eceff8;
-	border: 2px solid #eceff8;
+	border: 2px solid gray;
 	height: 45px;
 	box-shadow: none;
 	padding-left: 10px;
@@ -328,7 +328,7 @@ input {
 select {
 	width: 100%;
 	background: #eceff8;
-	border: 2px solid #eceff8;
+	border: 2px solid gray;
 	height: 45px;
 	padding-left: 10px;
 	box-shadow: none;
@@ -349,7 +349,7 @@ input:focus {
 textarea {
 	resize: vertical;
 	background: #eceff8;
-	border: 2px solid #eceff8;
+	border: 2px solid gray;
 	padding: 10px;
 	width: 100%;
 	font-size: 14px;
@@ -436,7 +436,7 @@ textarea:focus {
 .gray-bg {
 	background: #e8e8e8;
 }
-.blue-bg {
+.#fed700-bg {
 	background: #4FC1F0;
 }
 .default-bg {
@@ -721,12 +721,7 @@ textarea:focus {
 .shop-product-area .product_desc {
 	margin: 15px 15px 0;
 }
-.shop-product-area .add-actions {
-	padding: 0 15px;
-}
-/*----------------------------------------*/
-/* 	1.12 Li's Mobile Menu Customization 
-/*----------------------------------------*/
+
 .mobile-menu .mean-nav > ul {
 	overflow-y: auto;
 	max-height: 400px;
@@ -2244,82 +2239,7 @@ textarea:focus {
     display: block;
     position: relative;
 }
-.add-actions-link {
-	display: inline-block;
-	margin-top: 24px;
-	padding-top: 20px;
-	-webkit-transition: all 300ms ease-in 0s;
-	transition: all 300ms ease-in 0s;
-	width: 100%;
-}
-.add-actions-link li {
-	line-height: 1;
-	margin: 0 0 0 3px;
-	background: #eef0f1;
-	display: inline-block;
-	border-radius: 4px;
-	float: left;
-	height: 35px;
-	line-height: 35px;
-	width: 35px;
-}
-.add-actions-link li.add-cart {
-	float: left;
-	margin: 0;
-	background: #eef0f1;
-	border: 1px solid #e1e1e1;
-	transition: all 0.3s ease-in-out;
-	width: 120px;
-}
-.add-actions-link li:hover {
-	background: #fed700;
-	border-color: #fed700;
-}
-.add-actions-link li a {
-	color: #a4a4a4;
-	display: block;
-	font-size: 17px;
-	font-weight: 400;
-	padding: 0;
-	position: relative;
-	text-align: center;
-	-webkit-transition: all 300ms ease-in 0s;
-	transition: all 300ms ease-in 0s;
-}
-.add-actions-link li.add-cart.active a {
-	color: #242424;
-}
-.add-actions-link li:hover a, 
-.add-actions-link li.add-cart:hover a {
-	color: #242424;
-}
-.add-actions-link li.add-cart > a {
-	color: #a4a4a4;
-	font-size: 13px;
-	font-weight: 500;
-	text-transform: uppercase;
-}
-.add-actions-link li.add-cart > a i {
-  font-size: 16px;
-  line-height: 22px;
-}
-.add-actions {
-	bottom: -15px;
-	left: 0;
-	margin: 0 auto;
-	opacity: 0;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-	position: absolute;
-	right: 0;
-	text-align: center;
-	-webkit-transition: all 300ms ease-in-out;
-	transition: all 300ms ease-in-out;
-}
-.single-product-wrap:hover .add-actions {
-	bottom: 0;
-	opacity: 1;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-}
+
 .tab-content .tab-pane {
   display: block;
   height: 0;
@@ -2950,38 +2870,7 @@ text-align: center;
 	display: block;
 	letter-spacing: -.025em;
 }
-.shop-add-action {
-	opacity: 1;
-	top: 0;
-	background: #f7f7f7;
-	border: 1px solid #e1e1e1;
-	padding: 30px 0 30px 30px;
-}
-.shop-add-action .add-actions-link {
-	margin: 0;
-	padding: 0;
-}
-.shop-add-action .add-actions-link li.add-cart {
-	margin: 0 0 25px;;
-}
-.shop-add-action .add-actions-link li.wishlist, 
-.shop-add-action .add-actions-link li:last-child {
-	display: block;
-	width: 100%;
-	background: transparent;
-}
-.shop-add-action .add-actions-link li.wishlist a,
-.shop-add-action .add-actions-link li:last-child a.quick-view {
-	text-align: left;
-	background: transparent;
-	font-size: 14px;
-}
-.product-list-view .shop-add-action ul li a i {
-	padding-right: 10px;
-}
-/*----------------------------------------*/
-/* 6.2 Li's Frequently Asked Question(FAQ)
-/*----------------------------------------*/
+
 .frequently-desc {
 	margin-bottom: 25px;
 }
@@ -3283,7 +3172,7 @@ p.checkout-coupon input[type="submit"]:hover {
 .checkout-form-list input[type="password"],
 .checkout-form-list input[type="email"] {
 	background: #fff none repeat scroll 0 0;
-	border: 1px solid #e5e5e5;
+	border: 1px solid gray;
 	border-radius: 0;
 	height: 42px;
 	width: 100%;
@@ -3317,7 +3206,7 @@ p.checkout-coupon input[type="submit"]:hover {
 }
 .order-notes textarea {
 	background-color: transparent;
-	border: 1px solid #ddd;
+	border: 1px solid gray;
 	height: 90px;
 	padding: 15px;
 	width: 100%;
@@ -4145,14 +4034,14 @@ span.required {
   height: 50px;
   line-height: 50px;
   outline: none;
-  border: 1px solid #e0e0e0;
+  border: 1px solid gray;
   padding-left: 20px; 
 }
 .contact-form textarea {
   background-color: #ffffff;
   width: 100%;
   outline: none;
-  border: 1px solid #e0e0e0;
+  border: 1px solid gray;
   padding-left: 20px;
   line-height: 50px;
   height: 200px; 
@@ -4424,7 +4313,7 @@ span.required {
 .color-categoriy ul li span.Orange {
   background: #F39C11;
 }
-.color-categoriy ul li span.Blue  {
+.color-categoriy ul li span.#fed700  {
   background: #5D9CEC;
 }
 .color-categoriy li {
@@ -4826,18 +4715,13 @@ span.required {
 .sp-group-content .product-variants {
 	padding-top: 10px;
 }
-/*----------------------------------------*/
-/* 6.16 Single Product Normal Page
-/*----------------------------------------*/
+
 .sp-normal-content .cart-quantity {
 	margin-top: 0;
 }
 .sp-normal-content .product-additional-info {
 	padding-top: 28px;
 }
-/*----------------------------------------*/
-/* 6.17 Single Product Affiliate Page
-/*----------------------------------------*/
 .sp-affiliate-content .product-desc p {
 	margin-bottom: 23px;
 }
@@ -4847,10 +4731,6 @@ span.required {
 	float: left;
 	width: 100%;
 }
-
-/*----------------------------------------*/
-/* 6.21 Error 404 Page
-/*----------------------------------------*/
 .error-text h1 {
 	color: #fed700;
 	font-size: 200px;
