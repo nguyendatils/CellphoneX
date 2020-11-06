@@ -238,8 +238,8 @@ textarea {
 
 button.li-btn {
 	border: none;
-	background: #fed700;
-	color: #242424;
+	background: black;
+	color: #ffffff;
 	font-size: 20px;
 	width: 45px;
 	border-radius: 0 2px 2px 0;
@@ -252,8 +252,8 @@ button.li-btn {
 	cursor: pointer;
 }
 button.li-btn:hover {
-	background: #333333;
-	color: #ffffff;
+	background: #dec700;
+	color: black;
 }
 a.links, 
 a.links-2, 
@@ -1337,8 +1337,8 @@ textarea:focus {
 	font-size: 12px;
 	line-height: 22px;
 	margin-bottom: 10px;
-	background: #fed700;
-	color:black;
+	background: #000000;
+	color:#fff;
 	height: 30px;
 	line-height: 30px;
 	width: 100px;
@@ -1346,8 +1346,8 @@ textarea:focus {
 }
 
 .ht-setting-list > li:hover > a {
-	color: #ffffff;
-	background: black;
+	color: black;
+	background: #dec700;
 }
 .ht-setting-list > li.active > a {
 	color: #fff;
@@ -1655,7 +1655,7 @@ textarea:focus {
 }
 /*Header Bottom Menu*/
 .header-bottom {
-		background: #fed700;
+		background: #000000;
 		margin-bottom: 20px;
 }
 .hb-menu > nav > ul {
@@ -1669,7 +1669,7 @@ textarea:focus {
 }
 .hb-menu nav > ul > li > a {
 	display: flex;
-	color: #242424;
+	color: #fff;
 	text-transform: uppercase;
 	font-size: 14px;
 	line-height: 35px;
@@ -1686,7 +1686,7 @@ textarea:focus {
 	padding: 8px 0;
 }
 .hb-menu nav > ul > li:hover > a {
-		color: #ffffff;
+		color: #dec700;
 }
 
 .ht-menu > li .ht-currency-trigger span::after,
@@ -1836,7 +1836,7 @@ textarea:focus {
 }
 /*Sticky*/
 .header-sticky.sticky {
-	background: #fed700;
+	background: #000000;
 	left: 0;
 	position: fixed;
 	right: 0;
@@ -2759,9 +2759,9 @@ textarea:focus {
 .footer-newsletter .form-group .btn {
 	position: absolute;
 	right: 0;
-	background: #fed700;
+	background: black;
 	border: none;
-	color: #242424;
+	color: #ffffff;
 	height: 45px;
 	text-transform: uppercase;
 	font-size: 12px;
@@ -2773,8 +2773,8 @@ textarea:focus {
 	transition: all 0.5s ease-in-out;
 }
 .footer-newsletter .form-group .btn:hover {
-	background: #333333;
-	color: #ffffff;
+	background: #dec700;
+	color: black;
 }
 /*Footer Static Bottom*/
 .footer-links {
